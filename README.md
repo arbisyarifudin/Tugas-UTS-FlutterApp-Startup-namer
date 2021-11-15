@@ -37,8 +37,8 @@ ___
    \
    \
    ![](SS/ss3-run-emu.png) 
-   1.  Nah, sebenarnya tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
-   2.  Lanjut. Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
+- Nah, sebenarnya tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
+- Lanjut. Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
    Buka file ```pubspec.yaml```, lalu pada bagian **dependencies:**, tambahkan 1 baris baru yaitu: \
        ```english_words: ^4.0.0```
    ```
@@ -48,9 +48,9 @@ ___
       cupertino_icons: ^1.0.2
       english_words: ^4.0.0
    ```
-   10.   Saat kita melakukan perubahan pada file ```pubspec.yaml```, VS Code akans secara otomatis menjalankan perintah ```flutter pub get``` untuk memasang dependency yang baru kita tambahkan. Namun jika tidak berjalan, cukup jalankan secara manual via terminal.
-   2.  Dimateri tersebut juga diajarkan cara membuat fungsi custom bernama ```randomWords()``` untuk generate kata-kata secara acak.
-   3.  Diajarkan juga cara buat infinite scrolling ListView untuk menampilkan halaman listView berupa daftar **nama startup** acak yang digenerate secara otomatis tadi
+- Saat kita melakukan perubahan pada file ```pubspec.yaml```, VS Code akans secara otomatis menjalankan perintah ```flutter pub get``` untuk memasang dependency yang baru kita tambahkan. Namun jika tidak berjalan, cukup jalankan secara manual via terminal.
+- Dimateri tersebut juga diajarkan cara membuat fungsi custom bernama ```randomWords()``` untuk generate kata-kata secara acak.
+- Diajarkan juga cara buat infinite scrolling ListView untuk menampilkan halaman listView berupa daftar **nama startup** acak yang digenerate secara otomatis tadi
 \
 \
    ![](SS/ss3a-run-emu-list.png) 
