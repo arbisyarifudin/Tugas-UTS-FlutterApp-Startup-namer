@@ -29,12 +29,12 @@ ___
    
    1. Pada *Commad Pallete* ketik "```Flutter: Run Flutter Doctor```", lalu klik atau enter untuk menjalankan pengecekan apakah semua persyaratan yang dibutuhkan oleh Flutter sudah terpenuhi. Tandanya adalah akan muncul suatu daftar *tool/library/dsb* yang diperlukan untuk menjalakan Flutter dan mereka akan **tercentang** semua. Jika ada yang bertanda **silang**, silakan install dia terlebih dahulu.
    
-   ![](SS/ss2-rfd-term.png) 
-   
+   ![](SS/ss2-rfd-termn.png) 
+
    1. Buka *Command Pallete* dan ketik "```Flutter: Launch Emulator```", lalu pilih ```Create Emulator```, maka VS Code akan secara otomatis membuatkan kita sebuah emulator Android dan menjalankannya. Proses ini cukup memakan waktu, jadi tunggu saja.
    2.  Setelah selesai maka Emulator akan dijalankan. Setelah emulator terbuka, buka file ```main.dart``` lalu **tekan F5** pada keyboard dan aplikasi Flutter kita akan mulai di *build* dan setelah itu akan dijalankan pada emulator. Hasilnya:
    
-   ![](SS/ss3-run-emu.png) 
+   ![](SS/ss3-run-emu-hello.png) 
 
 - Nah, sebenarnya tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
 - Lanjut. Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
@@ -51,14 +51,14 @@ ___
 - Dimateri tersebut juga diajarkan cara membuat fungsi custom bernama ```randomWords()``` untuk generate kata-kata secara acak.
 - Diajarkan juga cara buat infinite scrolling ListView untuk menampilkan halaman listView berupa daftar **nama startup** acak yang digenerate secara otomatis tadi
 
-![](SS/ss3a-run-emu-list.png) 
+![](SS/ss4-run-emu--list.png) 
 ### Bagian 2 : [Write your first Flutter app, Part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2)
 
 - Di bagian 2, kita diajarkan cara menambah icon hati pada list **nama startup** yang sudah kita buat sebelumnya, bisa love dan unlove untuk menyimpan nama yang kita minati ke **daftar tersimpan**
 
-![](SS/ss3-run-emu--list.png) 
+![](SS/ss5-run-emu--list.png) 
 - Diajarkan tentang cara **mengganti tema warna**, serta diajarkan juga **Navigation & Route** agar kita bisa pindah ke halaman lainnya, dalam hal ini halaman **daftar tersimpan**, seperti pada gambar:
 
-![](SS/ss3-run-emu--saved.png) 
+![](SS/ss6-run-emu--saved.png) 
 - Selesai
 
