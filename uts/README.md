@@ -5,6 +5,9 @@
 
 ___
 
+## Hasil :
+![](SS/demo.gif)
+
 ## Soal dan Ketentuan
 
 1. Mengikuti Panduan Dasar pembuatan Mobile App dengan Flutter melalui tautan berikut: 
