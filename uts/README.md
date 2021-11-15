@@ -37,6 +37,7 @@ ___
    \
    \
    ![](SS/ss3-run-emu.png) 
+
 - Nah, sebenarnya tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
 - Lanjut. Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
    Buka file ```pubspec.yaml```, lalu pada bagian **dependencies:**, tambahkan 1 baris baru yaitu: \
@@ -53,26 +54,16 @@ ___
 - Diajarkan juga cara buat infinite scrolling ListView untuk menampilkan halaman listView berupa daftar **nama startup** acak yang digenerate secara otomatis tadi
 \
 \
-   ![](SS/ss3a-run-emu-list.png) 
-\
-\
-<br>
-      
+![](SS/ss3a-run-emu-list.png) 
 ### Bagian 2 : [Write your first Flutter app, Part 2](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2)
 
 - Di bagian 2, kita diajarkan cara menambah icon hati pada list **nama startup** yang sudah kita buat sebelumnya, bisa love dan unlove untuk menyimpan nama yang kita minati ke **daftar tersimpan**
 \
 \
 ![](SS/ss3-run-emu--list.png) 
-\
-\
-<br>
 - Diajarkan tentang cara **mengganti tema warna**, serta diajarkan juga **Navigation & Route** agar kita bisa pindah ke halaman lainnya, dalam hal ini halaman **daftar tersimpan**, seperti pada gambar:
 \
 \
 ![](SS/ss3-run-emu--saved.png) 
-\
-\
-<br>
 - Selesai
 
