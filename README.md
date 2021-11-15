@@ -28,17 +28,17 @@ ___
       \
       ![](SS/ss1-rfd.png)
       
-      1. Pada *Commad Pallete* ketik "```Flutter: Run Flutter Doctor```", lalu klik atau enter untuk menjalankan pengecekan apakah semua persyaratan yang dibutuhkan oleh Flutter sudah terpenuhi. Tandanya adalah akan muncul suatu daftar *tool/library/dsb* yang diperlukan untuk menjalakan Flutter dan mereka akan **tercentang** semua. Jika ada yang bertanda **silang**, silakan install dia terlebih dahulu.
+      5. Pada *Commad Pallete* ketik "```Flutter: Run Flutter Doctor```", lalu klik atau enter untuk menjalankan pengecekan apakah semua persyaratan yang dibutuhkan oleh Flutter sudah terpenuhi. Tandanya adalah akan muncul suatu daftar *tool/library/dsb* yang diperlukan untuk menjalakan Flutter dan mereka akan **tercentang** semua. Jika ada yang bertanda **silang**, silakan install dia terlebih dahulu.
       \
       \
       ![](SS/ss2-rfd-term.png) 
       1. Buka *Command Pallete* dan ketik "```Flutter: Launch Emulator```", lalu pilih ```Create Emulator```, maka VS Code akan secara otomatis membuatkan kita sebuah emulator Android dan menjalankannya. Proses ini cukup memakan waktu, jadi tunggu saja.
-      2.  Setelah selesai maka Emulator akan dijalankan dan aplikasi Flutter kita akan memunculkan tulisan "Hello World" jika kita mengikut panduannya dengan benar.
+      2.  Setelah selesai maka Emulator akan dijalankan. Setelah emulator terbuka, buka file ```main.dart``` lalu **tekan F5** pada keyboard dan aplikasi Flutter kita akan mulai di *build* dan setelah itu akan dijalankan pada emulator. Hasilnya:
       \
       \
       ![](SS/ss3-run-emu.png) 
-      1.  Tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
-      2.  Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
+      1.  Nah, sebenarnya tidak harus menggunakan Emulator, kita juga bisa menggunakan Smartphone yang kita miliki, dengan cara mengaktifkan ```USB Debugging``` pada Smartphone lalu menghubungkannya dengan Laptop kita.
+      2.  Lanjut. Pada panduan tersebut, kita juga diajarkan bagaimana cara menginstall package / dependecy, misalnya package ```english_words```. Caranya:
       Buka file ```pubspec.yaml```, lalu pada bagian **dependencies:**, tambahkan 1 baris baru yaitu: \
           ```english_words: ^4.0.0```
       ```
@@ -48,10 +48,22 @@ ___
          cupertino_icons: ^1.0.2
          english_words: ^4.0.0
       ```
-      1.  Saat kita melakukan perubahan pada file ```pubspec.yaml```, VS Code akans secara otomatis menjalankan perintah ```flutter pub get``` untuk memasang dependency yang baru kita tambahkan. Namun jika tidak berjalan, cukup jalankan secara manual via terminal.
+      10.   Saat kita melakukan perubahan pada file ```pubspec.yaml```, VS Code akans secara otomatis menjalankan perintah ```flutter pub get``` untuk memasang dependency yang baru kita tambahkan. Namun jika tidak berjalan, cukup jalankan secara manual via terminal.
       2.  Dimateri tersebut juga diajarkan cara membuat fungsi custom bernama ```randomWords()``` untuk generate kata-kata secara acak.
       3.  Diajarkan juga cara buat infinite scrolling ListView untuk menampilkan halaman listView berupa daftar **nama startup** acak yang digenerate secara otomatis tadi
       4.  List tersebut bisa kita berikan tombol **love** untuk menyimpannya ke dalam **list tersimpan** agar user bisa melihat lagi nanti
-      5.  Diajarkan juga tentang Navigation Route untuk pindah halaman 
-      6.  Selesai
+   \
+   \
+      ![](SS/ss3-run-emu--list.png) 
+   \
+   \
+   <br>
+      1.  Diajarkan juga tentang **Navigation & Route** untuk pindah halaman ke halaman list tersimpan tadi
+   \
+   \
+   \
+      ![](SS/ss3-run-emu--saved.png) 
+   \
+   <br>
+      1.  Selesai
           
